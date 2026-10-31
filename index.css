@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    line-height: 1.4;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.cabecalho {
+    text-align: center;
+}
+
+.cabecalho p {
+    margin: 2px 0;
+    font-size: 10pt;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #0b0b0b;
+    margin: 15px 0;
+}
+
+.conteudo p {
+    text-align: justify;
+    margin-bottom: 12px;
+}
+
+ul {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 3px;
+}
+
+a {
+    color: #0000EE;
+    text-decoration: underline;
+}
+
+.bloco-lado-a-lado {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+    font-size: 10pt;
+}
+
+.bloco-lado-a-lado p {
+    margin: 0;
+    text-align: left;
+}
+
+.rodape-referencia {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10pt;
+}
